@@ -18,7 +18,6 @@ def get_final_value(line):
     return "".join([digit_1,digit_2])
 
 def final_secret_code():
-
     lines = file.readlines()
     for x in lines:
         callibaration_value_list.append(int(get_final_value(x)))
